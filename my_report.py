@@ -16,7 +16,7 @@ pd.set_option('display.max_columns', None)
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'recipient'
+mail.To = 'programacaotestes000@gmail.com'
 mail.Subject = 'Relatorio de Vendas'
 mail.HTMLBody = f'''
 
